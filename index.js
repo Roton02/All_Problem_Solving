@@ -11,8 +11,8 @@ function vowels (value) {
     return counter;
 }
 
-// const result=vowels("aBbCcDdEe");
-// console.log(result);
+const output=vowels("aBbCcDdEe");
+console.log(output);
 // -----------------------------------
 
 /* Task-1:
