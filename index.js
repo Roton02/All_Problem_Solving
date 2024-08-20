@@ -382,7 +382,7 @@ function discount (quantity){
 console.log(result);
 // -----------------------------------
 
-const employees = [
+const employe = [
     { name: "shahin", experience: 5, starting: 20000, increment: 5000 },
     { name: "shihab", experience: 3, starting: 15000, increment: 7000 },
     { name: "shikot", experience: 9, starting: 30000, increment: 1000 },
@@ -397,11 +397,11 @@ const employees = [
   // Calculate total salary using a loop
   let totalSalary = 0;
   
-  for (let i = 0; i < employees.length; i++) {
-    const currentSalary = calculateCurrentSalary(employees[i]);
+  for (let i = 0; i < employe.length; i++) {
+    const currentSalary = calculateCurrentSalary(employe[i]);
     totalSalary += currentSalary;
   
-    console.log(`${employees[i].name}'s current salary is ${currentSalary}`);
+    console.log(`${employe[i].name}'s current salary is ${currentSalary}`);
   }
   
   console.log(
@@ -425,8 +425,8 @@ const shoeTotalPrice = shoe*shoePrice
 const totalCost= shirtTotalCost+pantTotalPrice+shoeTotalPrice;
 return totalCost;
 }
-const result =numbers(2,1,1);
-console.log(result);
+const res =numbers(2,1,1);
+console.log(res);
 // -----------------------------------
 function calculateMoney(ticketSale) {
     if(ticketSale<0){
